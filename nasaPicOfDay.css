@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:700,700i');
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   background-color: #333;
   color: #fff;
   margin: 0;
@@ -11,16 +11,21 @@ body {
   background-position: center center;
 }
 
+h2 {
+  margin: 0;
+}
+
 .wrap {
   min-height: 100vh;
   height: auto !important;
   height: 100vh;
-  margin: 0 auto -200px;
+  margin: 0 auto -175px;
 }
 
 .padded {
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 5px;
 }
 
 h2 {
@@ -38,7 +43,7 @@ h2 {
 }
 
 .push .footer {
-  height: 200px;
+  height: 175;
 }
 
 a:link {
